@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width , initial-scaled=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>F28-University Website-Project</title>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/universitry_logo.png"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>The Best University</h1>
+            <p>Life is an improvisation.You have no idea what’s going to happen next and you are mostly just making 
+                things up as you go along,<br>Keep going.Everything you need will come to you at the perfect time.</p>
+               <a href="" class="button">Visit Us To Know More</a>
+         </div>
+
+    </section>
+
+    <!----course------>
+    <section class="COURSE">
+        <h1>Courses We Offer</h1>
+        
+         <p> College is not just about learning facts, but about learning how to learn. Believe in yourself and all 
+            that you are. Know that there is something inside you that is greater than any obstacle.<br>
+            The journey of a thousand miles begins with a single step.
+         </p>
+         <div class="row">
+            <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>You cannot change your future, but you can change your habits, and surely your habits 
+                will change your future.You want to have a future where you’re expecting things to be better,
+                not one where you’re expecting things to be worse.
+            </p>
+            </div>
+            <div class="course-col">
+            <h3>Degree</h3>
+            <p>You cannot change your future, but you can change your habits, and surely your habits 
+               will change your future.You want to have a future where you’re expecting things to be better,
+               not one where you’re expecting things to be worse.
+            </p>
+                </div>
+            <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>You cannot change your future, but you can change your habits, and surely your habits 
+               will change your future.You want to have a future where you’re expecting things to be better,
+               not one where you’re expecting things to be worse.
+            </p>
+            </div>
+         </div>
+
+    </section>
+    <!----campus----->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Global Campus encourage them to think, create, innovate and demonstrate their extra-curricular 
+           skills and brings in a sense of competitiveness.</p>
+
+           <div class="row">
+               <div class="campus-col">
+               <img src="Images/Canada.jpg">
+               <div class="layer">
+                <h3>CANADA</h3>
+               </div>
+               </div>
+               <div class="campus-col">
+                    <img src="Images/London.jpg">
+                    <div class="layer">
+                    <h3>LONDON</h3>
+                   </div>
+                 </div>
+                <div class="campus-col">
+                    <img src="Images/Newyork.jpg">
+                    <div class="layer">
+                     <h3>NEW YORK</h3>
+                     </div>
+                    </div>
+                
+            
+           </div>
+
+    </section>
+
+    <!------facilities---->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Academic facilities:These include libraries, lecture halls, and other resources for learning.</p>
+        <div class="row">
+         <div class="facilities-col">
+            <img src="Images/Library.jpg">
+            <h3>World Class Library</h3>
+            <p>Libraries store the energy that fuels the imagination.They open up windows to the world 
+                and inspire.</p>
+         </div>
+         <div class="facilities-col">
+            <img src="Images/Sport.jpg">
+            <h3>Largest Play Ground</h3>
+            <p>India's top sports education institution, offering courses in sports sciences, sports technology, 
+               sports coaching, and sports management. 
+            </p>
+         </div>
+         <div class="facilities-col">
+            <img src="Images/cafeteria.jpg">
+            <h3>Tasty And Healthy Food</h3>
+            <p>Canteen is the heart of every college or institution. It caters to the basic needs of everyone.</p>
+         </div>
+        </div>
+         
+
+ </section>
+ <!----call To Action--->
+
+ <section class="cta">
+    <h1>Enroll For Our Various Online Courses <br>Anywhere From The World</h1>
+    <a href="" class="button">CONTACT US</a>
+     
+
+ </section>
+ <!----footer----->
+  
+ <section class="footer">
+    <h4>About US</h4>
+    <p>The College of Education is a state and national leader in providing comprehensive, <br>world-class 
+        preparation for teachers, counselors, education administrators, researchers and policymakers.
+
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    
+    </div>
+    <p>© Copyright The Best University Designed and Developed by University Departments with professional Support 
+        from university, <i class="fa fa-&copy;">Enterprises PVT LTD.</i></p>
+ </section>
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-150px";
+        }
+    </script>
+     
+
+      
+
+</body>
+</html>

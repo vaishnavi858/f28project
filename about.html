@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width , initial-scaled=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>F28-University Website-Project</title>
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/universitry_logo.png"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!----about us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The Best University </h1>
+                <p>The 10th Annual World Top 20 Project’s Global Universities Rankings were produced to measure 
+                   the quality of education and training for students 18 to 25 years old, as well as, the 
+                   university’s economic and social impact in promoting their country’s sustainable development.
+                   500 Universities were chosen, that meet NJ MED’s World Top 20 project objectives to 1
+                   improve the nation’s attainment and achievement levels towards establishing a knowledge 
+                   base workforce for the 21st century, and 2 promote social skills that positively affect 
+                   community development.The Universities were then ranked in eight global regions.The 20 
+                   universities with the highest overall scores were selected for the World Top 20 rankings.
+                    </p>
+                    <a href="" class="button exp-button">EXPLORE NOW</a>
+            </div>
+        
+        <div class="about-col">
+            <img src="Images/aboutus.jpg">
+        </div>
+        </div>
+
+    </section>
+
+     <!----footer----->
+  
+ <section class="footer">
+    <h4>About US</h4>
+    <p>The College of Education is a state and national leader in providing comprehensive, <br>world-class 
+        preparation for teachers, counselors, education administrators, researchers and policymakers.
+
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    
+    </div>
+    <p>© Copyright The Best University Designed and Developed by University Departments with professional Support from university, <i class="fa fa-&copy;">Enterprises PVT LTD.</i></p>
+ </section>
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-150px";
+        }
+    </script>
+     
+
+      
+
+</body>
+</html>
